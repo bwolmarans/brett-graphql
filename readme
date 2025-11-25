@@ -1,0 +1,9 @@
+docker build -t brett-graphql:latest .
+
+docker run -p 8181:8181 -d brett-graphql:latest
+
+curl 127.0.0.1:8181/graphql -X POST -H 'Content-Type: application/json' -d '
+{ "query": "{ hello }" }'
+
+{"data":{"hello":"Hello world!"}}
+
