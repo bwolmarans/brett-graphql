@@ -7,3 +7,8 @@ curl 127.0.0.1:8181/graphql -X POST -H 'Content-Type: application/json' -d '
 
 {"data":{"hello":"Hello world!"}}
 
+
+curl https://kong-f40972acc5us3jemn.kongcloud.dev/graphql -X POST -H 'Content-Type: application/json' -d '{"query": "{ greet(name: \"Brett\") }"}'
+
+{"data":{"greet":"Greetings, Brett!"}}
+
