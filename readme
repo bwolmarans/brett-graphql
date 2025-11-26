@@ -12,3 +12,4 @@ curl https://kong-f40972acc5us3jemn.kongcloud.dev/graphql -X POST -H 'Content-Ty
 
 {"data":{"greet":"Greetings, Brett!"}}
 
+# and view the chrome dev tools example to send the graphql requests from chrome
