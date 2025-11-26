@@ -1,3 +1,5 @@
+// go to the /graphql endpoint, open chrome dev tools, paste this in the dev tools console
+
 fetch('https://kong-f40972acc5us3jemn.kongcloud.dev/graphql', {
     method: 'POST',
     headers: {
